@@ -1,0 +1,146 @@
+@import url("https://use.typekit.net/qxd4swl.css");
+@import url("https://use.typekit.net/qfs5rir.css");
+
+body { 
+    font-family: "aileron", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #e6efb8;
+}
+
+/* For the header */
+
+.header-container {
+    width: 100%; 
+    padding: 10px 10px 0px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.h1 {
+    font-size: 5.625em;
+    color: #dd5761;
+    line-height: 0.9;
+    letter-spacing: -0.05em;
+    margin: 0px;
+    width: 100%;
+    flex: 3 1 0%;
+    transform: translateY(10px);
+}
+
+.year {
+    color: #dd5761;
+    font-size: 5.625em;
+    text-align: right;
+    flex: 1 1 0%;
+    line-height: 0.9;
+    letter-spacing: -0.05em;
+    transform: translateY(10px);
+    margin-right: 20px;
+}
+
+/* For the header (up) */
+
+/* For JSON */
+
+#recipe_container {
+    margin-top: 100px;
+}
+
+
+.recipe-item {
+    font-size: 1.5em;
+    color: #dd5761;
+    font-weight: 600;
+    line-height: 2;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+.split{
+    height: 100%;
+    padding-top: 20px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.left{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 10px;
+    width: 40%;
+    background-color:#d4eb81;
+}
+  
+.right{
+    overflow-y: auto;
+    overflow-x: hidden;
+    right: 0;
+    width: 60%;
+    margin-left: 30px;
+    max-height: 80vh;
+    top: 100px;
+}
+
+
+
+.img {
+    max-width: 400px;
+    max-height: 500px;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+h2 {
+    font-family: "aileron", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #dd5761;
+    margin-left: 100px;
+}
+
+h3 {
+    font-family: "aileron", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #dd5761;
+    margin-left: 100px;
+}
+
+p {
+    font-family: "aileron", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #dd5761;
+    line-height: 1.5;
+    margin-left: 100px;
+    max-width: 65ch;
+}
+
+ul {
+    font-family: "aileron", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #dd5761;
+    margin-left: 100px;
+}
+
+
+li {
+    font-family: "aileron", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #dd5761;
+    margin-left: 100px;
+}
