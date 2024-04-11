@@ -40,14 +40,11 @@ body {
     margin-right: 20px;
 }
 
-/* For the header (up) */
-
 /* For JSON */
 
 #recipe_container {
     margin-top: 100px;
 }
-
 
 .recipe-item {
     font-size: 1.5em;
@@ -57,7 +54,6 @@ body {
     margin-left: 30px;
     cursor: pointer;
 }
-
 
 .split{
     height: 100%;
@@ -82,8 +78,6 @@ body {
     max-height: 80vh;
     top: 100px;
 }
-
-
 
 .img {
     max-width: 600px;
@@ -133,7 +127,6 @@ ul {
     color: #dd5761;
     margin-left: 100px;
 }
-
 
 li {
     font-family: "aileron", sans-serif;

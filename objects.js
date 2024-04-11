@@ -381,10 +381,6 @@ collection.forEach(item => {
 });
 
 
-
-
-
-
 // make image a background using CSS (google CSS background)
 // most of the rest of this is CSS positioning, ::hover pseudo class, display (inline-block), rotation
 
@@ -394,16 +390,3 @@ collection.forEach(item => {
 
 
 
-// console.log(collection[i].name);
-
-// let nameList = document.getElementById ("name_list");
-// console.log(nameList);
-
-
-// for(let i = 0; i < collection.length; i++ ) {
-
-//     let listItem = document.createElement ("li"); 
-//     listItem.classList.add("green"); // to add class color from css 
-//     listItem.innerText = collection[i].reason;
-//     nameList.appendChild(listItem);
-// }
